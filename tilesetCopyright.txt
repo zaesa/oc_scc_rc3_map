@@ -1,0 +1,40 @@
+# Fremde Grafiken
+Zu folgenden Grafiken liegen uns leider keine Lizenzinformationen vor. Wir besitzen keine Rechte an ihnen und können entsprechend auch keine erteilen:
+
+* 
+
+## Milkian
+Diese Grafiken wurden von https://www.deviantart.com/milkian erstellt
+* img_png/tilesheets/tilesets_deviant_milkian_1.png
+* img_png/tilesheets/AceSet-Hospital.png
+
+
+## Grafiken CERT.
+CERT (cert.ccc.de) lizensiert alle Grafiken unter der CC-BY-SA
+* img_png/cert_safety
+* c3gelb
+* food_and_drinks
+
+## CC-BY-SA
+Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie http://creativecommons.org/licenses/by-sa/4.0/.
+
+## Pipoya Free RPG Tileset
+Diese Grafiken wurdnen von https://pipoya.itch.io erstellt
+* [A]Grass1-Dirt2_pipo
+* [A]Grass1-Dirt2_pipo_2
+* [A]Water_pipo
+* BaseChip_pipo
+* 
+
+## Utilities
+Diese Grafik ist lizensiert unter CC0, laut https://git.cccv.de/rc3/world-tiles
+* mapUtilities
+
+## PNGWing
+Diese Grafiken sind von https://www.pngwing.com/en/free-png-zfeck und lizensiert unter Non-commercial use, DMCA
+* pngwing.com
+* pngwingcom_1
+
+## RPG Maker VX RTP Tileset
+Diese Grafik stammt von https://www.pngegg.com/en/png-fdezo und ist lizensiert unter Non-commercial use, DMCA 
+* tileset_free
