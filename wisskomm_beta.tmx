@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="16" nextobjectid="7">
  <tileset firstgid="1" name="tilesets_deviant_milkian_1" tilewidth="32" tileheight="32" tilecount="256" columns="16">
-  <image source="../world-tiles/community/cert/imgs/tilesheets/tilesets_deviant_milkian_1.png" width="512" height="512"/>
+  <image source="img_png/tilesets_deviant_milkian_1.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="257" name="AceSet-Hospital" tilewidth="32" tileheight="32" tilecount="256" columns="16">
-  <image source="../world-tiles/community/cert/imgs/tilesheets/AceSet-Hospital.png" width="512" height="512"/>
+  <image source="img_png/AceSet-Hospital.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="513" name="cert_safety" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
   <image source="../world-tiles/community/cert/imgs/tilesheets/cert_safety.png" width="512" height="2048"/>
  </tileset>
  <tileset firstgid="1537" name="c3gelb" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
-  <image source="../world-tiles/community/cert/imgs/tilesheets/c3gelb.png" width="512" height="2048"/>
+  <image source="img_png/c3gelb.png" width="512" height="2048"/>
  </tileset>
  <tileset firstgid="2561" name="food_and_drinks" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
-  <image source="../world-tiles/community/cert/imgs/tilesheets/food_and_drinks.png" width="512" height="2048"/>
+  <image source="img_png/food_and_drinks.png" width="512" height="2048"/>
  </tileset>
  <tileset firstgid="3585" name="[Base]BaseChip_pipo" tilewidth="32" tileheight="32" tilecount="1064" columns="8">
-  <image source="../../../Downloads/Pipoya RPG Tileset 32x32/SampleMap/[Base]BaseChip_pipo.png" width="256" height="4256"/>
+  <image source="img_png/BaseChip_pipo.png" width="256" height="4256"/>
   <tile id="96">
    <properties>
     <property name="collides" type="bool" value="true"/>
@@ -49,10 +49,10 @@
   </wangsets>
  </tileset>
  <tileset firstgid="4649" name="wc_unisex" tilewidth="32" tileheight="32" tilecount="1" columns="1">
-  <image source="../world-tiles/community/c3sign/plakate-schilder/wc_unisex.png" width="32" height="32"/>
+  <image source="img_png/wc_unisex.png" width="32" height="32"/>
  </tileset>
  <tileset firstgid="4650" name="[A]Water_pipo" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
-  <image source="../../../Downloads/Pipoya RPG Tileset 32x32/SampleMap/[A]Water_pipo.png" width="2048" height="1536"/>
+  <image source="img_png/[A]Water_pipo.png" width="2048" height="1536"/>
   <wangsets>
    <wangset name="Terrains" type="corner" tile="-1">
     <wangcolor name="water1" color="#ff0000" tile="70" probability="1"/>
@@ -163,19 +163,119 @@
   </wangsets>
  </tileset>
  <tileset firstgid="7722" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
-  <image source="../world-tiles/rc3-2020/structures/mapUtilities.png" width="288" height="32"/>
+  <image source="img_png/mapUtilities.png" width="288" height="32"/>
  </tileset>
  <tileset firstgid="7731" name="[A]Grass1-Dirt2_pipo" tilewidth="32" tileheight="32" tilecount="6" columns="2">
-  <image source="../../../Downloads/Pipoya RPG Tileset 32x32/[A]_type2/[A]Grass1-Dirt2_pipo.png" width="64" height="96"/>
+  <image source="img_png/[A]Grass1-Dirt2_pipo.png" width="64" height="96"/>
  </tileset>
  <tileset firstgid="7737" name="[A]Grass1-Dirt2_pipo" tilewidth="32" tileheight="32" tilecount="5" columns="1">
-  <image source="../../../Downloads/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Dirt2_pipo.png" width="32" height="160"/>
+  <image source="img_png/[A]Grass1-Dirt2_pipo_2.png" width="32" height="160"/>
  </tileset>
- <tileset firstgid="7742" name="pngwing.com (1)" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
-  <image source="../../../Downloads/pngwing.com (1).png" width="1024" height="1024"/>
+ <tileset firstgid="7742" name="pngwingcom_1" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="img_png/pngwingcom_1.png" width="1024" height="1024"/>
+  <tile id="525">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="526">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="527">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="528">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="557">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="558">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="559">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="560">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="589">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="590">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="591">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="592">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="621">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="622">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="623">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="624">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="653">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="654">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="655">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="656">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="8766" name="tileset_free" tilewidth="32" tileheight="32" tilecount="2016" columns="32">
-  <image source="../../../Downloads/tileset_free.png" width="1024" height="2016"/>
+  <image source="img_png/tileset_free.png" width="1024" height="2016"/>
  </tileset>
  <tileset firstgid="10782" name="[A]Grass1-Dirt2_pipo" tilewidth="32" tileheight="32" tilecount="5" columns="1">
   <image source="../../../Downloads/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Dirt2_pipo.png" width="32" height="160"/>
@@ -213,18 +313,34 @@
    </wangset>
   </wangsets>
  </tileset>
- <tileset firstgid="11851" name="pngwing.com (1)" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
-  <image source="../../../Downloads/pngwing.com (1).png" width="1024" height="1024"/>
+ <tileset firstgid="11851" name="video_line" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="img_png/video_line.png" width="32" height="32"/>
  </tileset>
- <tileset firstgid="12875" name="video_line" tilewidth="32" tileheight="32" tilecount="1" columns="1">
-  <image source="../../../Downloads/video_line.png" width="32" height="32"/>
- </tileset>
- <tileset firstgid="12876" source="img/worldExit.tsx"/>
+ <tileset firstgid="11852" source="img/worldExit.tsx"/>
  <layer id="1" name="start" width="100" height="100">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
-  <data encoding="csv"/>
+  <data encoding="csv">
+   <chunk x="0" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,7723,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
  </layer>
  <layer id="12" name="jitsiRoom" width="100" height="100">
   <properties>
@@ -2277,13 +2393,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 454,0,0,2564,0,0,0,0,0,0,0,0,0,0,4120,4649,
 0,2610,4544,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11851,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11851,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11851,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11851,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11851,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11851,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11851,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2304,8 +2420,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12876,12877,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,12878,12879,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11852,11853,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,11854,11855,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
