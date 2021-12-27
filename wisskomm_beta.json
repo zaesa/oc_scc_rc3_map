@@ -1026,7 +1026,7 @@
         {
          "columns":16,
          "firstgid":513,
-         "image":"..\/world-tiles\/community\/cert\/imgs\/tilesheets\/cert_safety.png",
+         "image":"img_png\/cert_safety.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
