@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="15" nextobjectid="7">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="16" nextobjectid="7">
  <tileset firstgid="1" name="tilesets_deviant_milkian_1" tilewidth="32" tileheight="32" tilecount="256" columns="16">
   <image source="../world-tiles/community/cert/imgs/tilesheets/tilesets_deviant_milkian_1.png" width="512" height="512"/>
  </tileset>
@@ -162,7 +162,9 @@
    </wangset>
   </wangsets>
  </tileset>
- <tileset firstgid="7722" source="../mapUtilities.tsx"/>
+ <tileset firstgid="7722" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
+  <image source="../world-tiles/rc3-2020/structures/mapUtilities.png" width="288" height="32"/>
+ </tileset>
  <tileset firstgid="7731" name="[A]Grass1-Dirt2_pipo" tilewidth="32" tileheight="32" tilecount="6" columns="2">
   <image source="../../../Downloads/Pipoya RPG Tileset 32x32/[A]_type2/[A]Grass1-Dirt2_pipo.png" width="64" height="96"/>
  </tileset>
@@ -214,7 +216,10 @@
  <tileset firstgid="11851" name="pngwing.com (1)" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="../../../Downloads/pngwing.com (1).png" width="1024" height="1024"/>
  </tileset>
- <tileset firstgid="12875" source="img/video_line.tsx"/>
+ <tileset firstgid="12875" name="video_line" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../../../Downloads/video_line.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="12876" source="img/worldExit.tsx"/>
  <layer id="1" name="start" width="100" height="100">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
@@ -2279,6 +2284,31 @@
 0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,12875,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+ <layer id="15" name="Exit" width="100" height="100">
+  <properties>
+   <property name="exitURL" value="world://lobby.json"/>
+  </properties>
+  <data encoding="csv">
+   <chunk x="0" y="16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,12876,12877,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,12878,12879,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
