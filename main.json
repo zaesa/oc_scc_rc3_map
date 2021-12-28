@@ -31,6 +31,11 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"osscc1"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -83,7 +88,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/www.openscienceradio.org"
+                 "value":""
                 }, 
                 {
                  "name":"openWebsiteTrigger",
@@ -335,10 +340,10 @@
          "height":132,
          "id":15,
          "name":"Exit",
-         "opacity":1,
+         "opacity":0.9,
          "properties":[
                 {
-                 "name":"exitURL",
+                 "name":"exitUrl",
                  "type":"string",
                  "value":"world:\/\/lobby.json"
                 }],
@@ -1268,6 +1273,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"c3gelb",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CERT (cert.ccc.de) lizensiert alle Grafiken unter der CC-BY-SA"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -3324,6 +3335,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"video_line",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"zaesa CC0"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -3337,6 +3354,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"oc_ag_logo",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Logo von https:\/\/ag-openscience.de, rework by zaesa"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -3350,6 +3373,12 @@
          "imagewidth":32,
          "margin":0,
          "name":"Logo-wissstrom_32",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"Logo von forschungsstrom.tv, rework by zaesa"
+                }],
          "spacing":0,
          "tilecount":1,
          "tileheight":32,
@@ -3366,6 +3395,16 @@
          "spacing":0,
          "tilecount":2,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"Logo von http:\/\/www.openscienceradio.org, rework by zaesa"
+                        }]
+                }],
          "tilewidth":32
         }, 
         {
