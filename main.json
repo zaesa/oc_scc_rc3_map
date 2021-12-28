@@ -53,7 +53,7 @@
                 {
                  "name":"bbbRoom",
                  "type":"string",
-                 "value":"openlab"
+                 "value":"bbb:\/\/OpenScienceSCC\/openlab"
                 }, 
                 {
                  "name":"bbbTrigger",
